@@ -1,8 +1,8 @@
-# baldrick-tsconfig-ES2022
+# baldrick-tsconfig-es2024
 
-> Shared basic [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for ES2022
+> Shared basic [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for ES2024
 
-This is _not an official_ [base](https://github.com/tsconfig/bases). It should support Node.js 18 and above, but should provide ES2022 support for [ES modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/).
+This is _not an official_ [base](https://github.com/tsconfig/bases). It should support Node.js 22 and above, but should provide ES2024 support for [ES modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/).
 
 It includes:
 
@@ -27,7 +27,7 @@ It includes:
 
 ## Install
 
-    $ npm install --save-dev baldrick-tsconfig-ES2022
+    $ npm install --save-dev baldrick-tsconfig-ES2024
 
 ## Usage
 
@@ -35,7 +35,7 @@ It includes:
 
 ```json
 {
-	"extends": "baldrick-tsconfig-es2022"
+	"extends": "baldrick-tsconfig-es2024"
 }
 ```
 

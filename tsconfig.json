@@ -1,14 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "ES2022",
+  "display": "ES2024",
 
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2022"],
-    "module": "Node18",
+    "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    "module": "nodenext",
     "moduleDetection": "force",
     "moduleResolution": "node16",
     "newLine": "lf",
@@ -23,7 +23,7 @@
     "resolveJsonModule": false,
     "skipLibCheck": true,
     "strict": true,
-    "target": "es2022",
+    "target": "es2024",
     "useDefineForClassFields": true
   },
   "ts-node": {
