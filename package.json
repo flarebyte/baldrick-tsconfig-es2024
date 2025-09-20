@@ -1,0 +1,26 @@
+{
+  "name": "baldrick-tsconfig-es2022",
+  "version": "0.5.0",
+  "description": "Shared basic Typescript config for ES2022",
+  "license": "MIT",
+  "repository": "flarebyte/baldrick-tsconfig-es2022",
+  "author": {
+    "name": "Olivier Huin",
+    "email": "npm.olivier.huin@flarebyte.com"
+  },
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration",
+    "ES2022"
+  ]
+}
